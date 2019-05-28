@@ -1,0 +1,53 @@
+@font-face {
+    font-family: koliko-light;
+    src: url(./koliko-Light.ttf);
+  }
+
+  .header {
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: -64px;
+    z-index: 1000;
+  }
+
+#mainTitle {
+    font-family: koliko-light;
+    font-size: 70px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid whitesmoke;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.navBar {
+    font-family: koliko-light;
+    font-size: 20px;
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 125px;
+    margin-top: -25px;
+    padding-bottom: 280px;
+}
+
+
+.navBar li {
+    display: inline;
+    padding-right: 145px;
+}
+
+
+li a:hover{
+    color: grey;
+    transition: 500ms;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
