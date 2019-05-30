@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ReactBnbGallery from 'react-bnb-gallery';
+
 import '../MainContent.css';
 
 import foto1 from './bazaSmall.jpg';
@@ -7,9 +9,6 @@ import foto2 from './cevaBazaSmall.jpg';
 import foto3 from './portraitEdsonCBRSmall.jpg';
 import foto4 from './portraitMichelSmall.jpg';
 import foto5 from './portraitViniSmall.jpg';
-//import foto6 from './.jpg';
-//import foto7 from './.jpg';
-//import foto8 from './.jpg';
 
 
 function Portraits () {
